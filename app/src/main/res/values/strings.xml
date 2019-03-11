@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Cafe Meow</string>
+
+
+    <plurals name="has_been_clicked">
+        <item quantity="one">I\'ve been clicked %d time.</item>
+        <item quantity="other">I\'ve been clicked %d times.</item>
+    </plurals>
+
+
+    <string name="has_been_clicked">I\'ve been clicked!</string>
+    <string name="button">Button</string>
 </resources>
