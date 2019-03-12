@@ -3,11 +3,11 @@
 
 
     <plurals name="has_been_clicked">
-        <item quantity="one">I\'ve been clicked %d time.</item>
-        <item quantity="other">I\'ve been clicked %d times.</item>
+        <item quantity="one">you have %d cat.</item>
+        <item quantity="other">you have %d cats.</item>
     </plurals>
 
 
-    <string name="has_been_clicked">I\'ve been clicked!</string>
-    <string name="button">Button</string>
+    <string name="has_been_clicked">more cats!</string>
+    <string name="button">+1 cat</string>
 </resources>
