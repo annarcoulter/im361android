@@ -20,13 +20,13 @@
         <activity android:name=".ScenicActivity"
             android:parentActivityName=".MainActivity" />
 
+        <activity android:name=".AdoptActivity"
+                  android:parentActivityName=".MainActivity" />
+
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/maps_api_key"
             />
-
-        <activity android:name=".AdoptActivity"
-                  android:parentActivityName=".MainActivity" />
 
     </application>
 

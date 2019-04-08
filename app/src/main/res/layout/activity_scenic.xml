@@ -4,6 +4,60 @@
                                              android:layout_height="match_parent">
 
     <TextView
+            android:text="Coffee - $2"
+            android:layout_width="236dp"
+            android:layout_height="0dp"
+            android:id="@+id/my_text_view2" android:textAlignment="center"
+            android:textSize="22sp" android:layout_marginStart="8dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496" android:layout_marginTop="52dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView"/>
+    <TextView
+            android:text="Tea - $1"
+            android:layout_width="236dp"
+            android:layout_height="0dp"
+            android:id="@+id/my_text_view3" android:textAlignment="center"
+            android:textSize="22sp" android:layout_marginStart="8dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496" android:layout_marginTop="100dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView"/>
+    <TextView
+            android:text="Muffin - $4"
+            android:layout_width="236dp"
+            android:layout_height="0dp"
+            android:id="@+id/my_text_view4" android:textAlignment="center"
+            android:textSize="22sp" android:layout_marginStart="8dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496" android:layout_marginTop="148dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView"/>
+    <TextView
+            android:text="Fresh Bread - $1"
+            android:layout_width="236dp"
+            android:layout_height="0dp"
+            android:id="@+id/my_text_view5" android:textAlignment="center"
+            android:textSize="22sp" android:layout_marginStart="8dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496" android:layout_marginTop="196dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView"/>
+    <TextView
+            android:text="Catnip - $2"
+            android:layout_width="236dp"
+            android:layout_height="0dp"
+            android:id="@+id/my_text_view6" android:textAlignment="center"
+            android:textSize="22sp" android:layout_marginStart="8dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496" android:layout_marginTop="244dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView"/>
+    <TextView
+            android:text="Salmon - $4"
+            android:layout_width="236dp"
+            android:layout_height="0dp"
+            android:id="@+id/my_text_view7" android:textAlignment="center"
+            android:textSize="22sp" android:layout_marginStart="8dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496" android:layout_marginTop="296dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView"/>
+    <TextView
             android:text="Menu"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -11,6 +65,6 @@
             android:layout_marginTop="50dp" app:layout_constraintBottom_toBottomOf="parent"
             android:layout_marginBottom="538dp" app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginEnd="130dp" app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginStart="130dp" android:textSize="30sp" app:layout_constraintHorizontal_bias="0.4"
-            app:layout_constraintVertical_bias="0.911"/>
+            android:layout_marginStart="130dp" android:textSize="30sp"
+            app:layout_constraintVertical_bias="1.0"/>
 </android.support.constraint.ConstraintLayout>

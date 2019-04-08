@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                                             xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
                                              android:layout_height="match_parent">
 
     <TextView
@@ -13,4 +14,20 @@
             android:layout_marginEnd="130dp" app:layout_constraintStart_toStartOf="parent"
             android:layout_marginStart="130dp" android:textSize="30sp" app:layout_constraintHorizontal_bias="0.4"
             app:layout_constraintVertical_bias="0.911"/>
+    <TextView
+            android:text="Pumpkin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView5"
+            android:textSize="22sp"
+            tools:layout_editor_absoluteX="158dp" tools:layout_editor_absoluteY="334dp"/>
+    <ImageView
+            android:layout_width="107dp"
+            android:layout_height="109dp" tools:srcCompat="@tools:sample/avatars"
+            tools:layout_editor_absoluteY="207dp" tools:layout_editor_absoluteX="143dp" android:id="@+id/imageView"/>
+    <TextView
+            android:text="Pumpkin is a shy, 9 year old cat relinquished to us with his brother Rowdy when their owner was down on his luck. He tends to keep to himself and hides in the open cat room most of the time. He doesn't pick any fights with the other cats, but he doesn't curl up and hang out with them either. Pumpkin hasn't been exposed to dogs or children. He would do best in a home that is quiet and will let him adjust in his own time. If you feel like you might be that home, stop in to visit with Pumpkin and fill out an adoption application."
+            android:layout_width="249dp"
+            android:layout_height="263dp" tools:layout_editor_absoluteY="380dp"
+            tools:layout_editor_absoluteX="81dp" android:id="@+id/textView4"/>
 </android.support.constraint.ConstraintLayout>

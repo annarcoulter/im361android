@@ -10,4 +10,13 @@
 
     <string name="has_been_clicked">more cats!</string>
     <string name="button">+1 cat</string>
+    <string name="cafe_menu">Cafe Menu</string>
+    <string name="adopt">Adopt</string>
+    <string name="all_of_our_cats_are_adoptable_and_waiting_for_their_forever_homes_come_in_and_meet_your_future_feline">
+        All of our cats are adoptable and waiting for their forever homes. Come in and meet your future feline!
+    </string>
+    <string name="cafe_meow_is_a_celebrated_cat_cafe_based_in_st_louis_mo_we_serve_coffee_drinks_and_a_variety_of_bakery_items_don_t_forget_to_pick_up_some_treats_at_the_counter_for_our_furry_friends">
+        Cafe Meow is a celebrated Cat Cafe based in St. Louis, MO. We serve coffee, drinks, and a variety of bakery
+        items. Don\'t forget to pick up some treats at the counter for our furry friends!
+    </string>
 </resources>

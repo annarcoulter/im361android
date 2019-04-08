@@ -8,16 +8,16 @@
         tools:context=".MainActivity">
 
     <TextView
-            android:text="Cafe Meow is a celebrated Cat Cafe based in St. Louis, MO. We serve coffee, drinks, and a variety of bakery items. Don't forget to pick up some treats at the counter for our furry friends!"
+            android:text="@string/cafe_meow_is_a_celebrated_cat_cafe_based_in_st_louis_mo_we_serve_coffee_drinks_and_a_variety_of_bakery_items_don_t_forget_to_pick_up_some_treats_at_the_counter_for_our_furry_friends"
             android:layout_width="236dp"
             android:layout_height="158dp"
             android:id="@+id/textView2" android:textAlignment="center" app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginEnd="8dp" app:layout_constraintStart_toStartOf="parent"
             android:layout_marginStart="8dp" android:textSize="18sp" app:layout_constraintHorizontal_bias="0.496"
-            tools:layout_editor_absoluteY="149dp"/>
+            android:layout_marginTop="70dp" app:layout_constraintTop_toTopOf="parent"/>
 
     <Button
-            android:text="Cafe Menu"
+            android:text="@string/cafe_menu"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/my_button"
@@ -26,7 +26,7 @@
             style="@style/Widget.AppCompat.Button.Colored" android:layout_marginStart="8dp"
             app:layout_constraintStart_toStartOf="parent"/>
     <Button
-            android:text="Adopt"
+            android:text="@string/adopt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/my_button2" android:layout_marginTop="16dp"
@@ -36,7 +36,7 @@
             android:layout_marginStart="8dp" app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintHorizontal_bias="0.498"/>
     <TextView
-            android:text="All of our cats are adoptable and waiting for their forever homes. Come in and meet your future feline!"
+            android:text="@string/all_of_our_cats_are_adoptable_and_waiting_for_their_forever_homes_come_in_and_meet_your_future_feline"
             android:layout_width="236dp"
             android:layout_height="95dp"
             android:id="@+id/my_text_view" android:textAlignment="center"
