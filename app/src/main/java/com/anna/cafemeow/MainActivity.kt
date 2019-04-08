@@ -10,23 +10,28 @@ import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.maps.OnMapReadyCallback
 import com.google.android.gms.maps.SupportMapFragment
 
+@Suppress("NAME_SHADOWING")
 class MainActivity : AppCompatActivity(), OnMapReadyCallback {
     override fun onMapReady(map: GoogleMap?) {
         Log.i("CafeMeow", "Map is ready")
     }
 
-    var counter = 0
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        val myText: TextView = findViewById(R.id.my_text_view)
+
         val myButton: Button = findViewById(R.id.my_button)
         myButton.setOnClickListener {
-            val intent = Intent ( this, ScenicActivity::class.java)
+            val intent = Intent(this, ScenicActivity::class.java)
+            startActivity(intent)
 
-            val options = ActivityOptions.makeSceneTransitionAnimation(this, myText, "my_text_view")
-            startActivity(intent, options.toBundle())
+            val myButton2: Button = findViewById(R.id.my_button2)
+            myButton2.setOnClickListener {
+                val intent = Intent(this, AdoptActivity::class.java)
+                startActivity(intent)
+            }
+
         }
 
     }
